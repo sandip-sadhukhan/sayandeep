@@ -98,23 +98,23 @@ html{
 /* MEDIA QUERY */
 @media only screen and (max-width:600px){
     #videobg{
-        height:160px;
+        height:100%;
         width:100%;
-        display:none;
+       overflow-x:hidden;
     }
     .divcenter h1{
         font-size:25px;
         position: relative;
         left:0 !important;
         top: -170px !important;
-        display:none;
+       
     }
     .divcenter h4{
         font-size:15px;
         position: relative;
         left:0;
         top:-165px;
-        display:none;
+        
     }
     html{
         overflow-x:hidden;
