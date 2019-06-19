@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat' ,sans-serif;
+    
+}
+/* NAVBER START */
+.navbar-brand
+{
+    font-family: 'Pacifico' ,sans-serif;
+    font-size: 20px;
+    padding:5px !important;
+    margin:0 !important;
+}
+.nav-link{
+    color:white;
+    font-family: 'Montserrat' !important;
+    font-size:16px;
+    padding-left:20px !important;
+}
+.nav-link:hover{
+    color:#2ecc71 !important;
+    font-weight: 600 !important;
+}
+/* HEADER START */
+
+.divcenter{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto Condensed',sans-serif;
+    color:#fff;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.divcenter h4{
+    font-size:40px;
+    letter-spacing: 2px;
+}
+.divcenter ul{
+    list-style-type: none;
+    margin:10px auto;
+    padding:5px;
+}
+.divcenter ul li{
+    align-items: center;
+    display: inline;
+}
+.divcenter ul a:hover{
+    color:#2ecc71;
+}
+#videobg{
+    z-index: -1;
+    position: static;
+    width:100%;
+}
+.heading-header{
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
+/* ABOUT ME START */
+.bg-about{
+    background-color:rgba(102, 96, 96, 0.3) !important;
+}
+.profile-pic{
+    border-radius: 50%;
+    width:300px !important;
+    transition: transform 2s;  
+}
+.para1{
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 20px;
+    color:rgba(0,0,0,.76);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align:justify;
+}
+.img-gamming img{
+    width:300px;
+    height:150px;
+}
+ 
+/* CONTACT ME START */
+#contactme{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+.para2 p{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family : 'Montserrat';
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width:600px){
+    #videobg{
+        height:160px;
+        width:100%;
+    }
+    .divcenter h1{
+        font-size:25px;
+        position: relative;
+        left:0 !important;
+        top: -170px !important;
+    }
+    .divcenter h4{
+        font-size:15px;
+        position: relative;
+        left:0;
+        top:-165px;
+    }
+    html{
+        overflow-x:hidden;
+    }
+    .para2 p{
+        font-size:20px;
+    }
+    .display-3{
+        font-size:60px;
+        padding:15px !important;
+    }
+}
