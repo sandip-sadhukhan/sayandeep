@@ -100,18 +100,21 @@ html{
     #videobg{
         height:160px;
         width:100%;
+        display:none;
     }
     .divcenter h1{
         font-size:25px;
         position: relative;
         left:0 !important;
         top: -170px !important;
+        display:none;
     }
     .divcenter h4{
         font-size:15px;
         position: relative;
         left:0;
         top:-165px;
+        display:none;
     }
     html{
         overflow-x:hidden;
@@ -123,6 +126,4 @@ html{
         font-size:60px;
         padding:15px !important;
     }
-    #videobg{
-        overflow-x:hidden;}
 }
