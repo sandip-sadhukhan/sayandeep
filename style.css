@@ -129,5 +129,6 @@ html{
         padding:15px !important;
     }
     #email{
-        font-size:10px !important;}
+        font-size:10px !important;
+    overflow-x:hidden;}
 }
